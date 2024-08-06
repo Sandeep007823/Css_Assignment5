@@ -9,7 +9,7 @@
     background-size: cover;
     position:relative ; 
     z-index:1;
-    height:90vh;
+    height:85vh;
     width:100%;
     overflow-x:hidden;
     animation-name: moving-sky;
@@ -45,8 +45,8 @@
 .sun{
     position:absolute;
     z-index: 1;
-    height: 140px;
-    top: 139px;
+    height: 130px;
+    top: 95px;
     right: -10vh;
     animation-name:moving-sun;
     animation-iteration-count: infinite;
@@ -61,14 +61,14 @@
         transform: translateX(-100vw);
     }
     100% {
-        transform: translateX(-200vw);
+        transform: translateX(-180vw);
     }
 } 
 .moon{
     position:absolute;
     z-index: 1;
     height: 140px;
-    top: 139px;
+    top: 100px;
     right: -240vh;
     animation-name:moving-moon;
     animation-iteration-count: infinite;
@@ -91,10 +91,10 @@
 }
 .city{
     width:300%;
-    height:246px;
+    height:240px;
    position:absolute;
    z-index: 2;
-   top:358px;
+   top:300px;
    animation-name: moving-city;
    animation-duration: 60s;
    animation-timing-function: linear;
@@ -110,7 +110,7 @@
 }
 .road{
     position:absolute;
-    top:600px;
+    top:539px;
     z-index: 1;
     width:500%;
     height:33vh;
@@ -131,22 +131,22 @@
 }
 .car{
   position:absolute;
-  top:500px;
-  left:706px;
+  top:395px;
+  left:100px;
   z-index:2;
   height:213px;
 }
 .flag{
     position:absolute;
-    top: 508px;
-    left: 1078px;
+    top: 403px;
+    left:465px;
     z-index: 3;
     height: 85px;
 }
 .wheel{
     position:absolute;
-    top:616px;
-    left:747px;
+    top:508px;
+    left:140px;
     z-index:2;
     height:100px;
     animation-name:rot;
@@ -157,8 +157,8 @@
 }
 .wheel2{
     position:absolute;
-    top:615px;
-    left:1062px;
+    top:507px;
+    left:456px;
     z-index:2;
     height:100px;
     animation-name:rot;
